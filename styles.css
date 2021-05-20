@@ -9,8 +9,46 @@ body{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-color: #7BDAF3;
+}
+
+.notes{
+    width: 400px; 
+    height: 400px; 
+    background-color: #ECFAF5;
+}
+
+.notes .tools{
+      background-color: #9EC862;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: flex-end;
+}
+
+.notes .tools button{
+    background-color: transparent;
+    color: #fff; 
+    border: none; 
+    font-size: 1.2rem; 
+}
+
+.notes .main{
+    height: 100%; 
+    width: 100%; 
+}
+
+.notes textarea {
+    width: 100%; 
+    height: 100%; 
+    border: none; 
+}
+
+.notes textarea:focus{
+    outline: none; 
+    
 }
